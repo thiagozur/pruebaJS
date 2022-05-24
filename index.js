@@ -9,8 +9,8 @@ let numero = checkTempNumber(temperatura)
 
 let texto = (parseFloat(temperatura) < 0) ? "El arte es morirse de frío" :
     (0 <= parseFloat(temperatura) && parseFloat(temperatura) <= 16) ? "Está fresco para pasear en jaula" :
-    (16 < parseFloat(temperatura) && parseFloat(temperatura) <= 35) ? "Maldición, va a ser un día hermoso" :
-    (parseFloat(temperatura) > 35) ? "Muerte instantánea" : "Por favor, ingrese un número";
+    (16 < parseFloat(temperatura) && parseFloat(temperatura) < 35) ? "Maldición, va a ser un día hermoso" :
+    (parseFloat(temperatura) >= 35) ? "Muerte instantánea" : "Por favor, ingrese un número";
 
 var mensaje = document.getElementById("inputted")
 
