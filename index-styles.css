@@ -1,7 +1,20 @@
 .titulo{
     font-family: Tahoma;
     font-weight: lighter;
-    color: rgb(37, 37, 37);
-    background-color: rgb(134, 221, 221);
-    border-radius: 5px;
+    color: rgb(20, 134, 64);
+    background-color: rgb(191, 255, 223);
+    padding-top: 6pt;
+    padding-bottom: 6pt;
+    width: 100%;
+}
+
+body{
+    background: linear-gradient(to right, rgb(88, 223, 200), rgb(72, 211, 72));
+}
+
+.respuesta{
+    font-family: Tahoma;
+    font-weight: lighter;
+    color: rgb(0, 0, 0);
+    font-style: italic;
 }
